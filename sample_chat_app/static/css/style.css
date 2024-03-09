@@ -1,0 +1,80 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Avenir"
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Avenir"
+}
+
+.join {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: "Avenir"
+}
+
+.create-btn {
+  width: 100%;
+  font-family: "Avenir"
+}
+
+.message-box {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: stretch;
+  font-family: "Avenir"
+}
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+  font-family: "Avenir"
+}
+
+.inputs {
+  padding: 10px;
+  display: flex;
+  font-family: "Avenir"
+}
+
+h2 {
+  text-align: center;
+  font-family: "Avenir"
+}
+
+#message {
+  flex: 1;
+  font-family: "Avenir"
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Avenir"
+}
+
+.muted {
+  font-size: 10px;
+  color: darkgray;
+  font-family: "Avenir"
+}
